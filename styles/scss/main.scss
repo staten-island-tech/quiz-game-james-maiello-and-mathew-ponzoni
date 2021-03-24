@@ -1,0 +1,51 @@
+body{
+    background-color: #555555;
+    color: #ffffff;
+    text-align:center
+}
+
+.title{
+    font-size: 5rem;
+}
+
+.question{
+    font-size: 3rem;
+}
+
+.answers {
+    flex-direction: column;
+}
+
+.answer1,.answer2,.answer3,.answer4 {
+    background-color: #ffffff;
+    font: #000000;
+    width: 50vw;
+    min-height: 12.5vh;
+    font-size: 2rem;
+    margin-bottom: 3vh;
+}
+.answer1:hover {
+    background-color: #555555;
+    color: white;
+    transition: 0.3s;
+}
+.answer2:hover {
+    background-color: #555555;
+    color: white;
+    transition: 0.3s;
+}
+.answer3:hover {
+    background-color: #555555;
+    color: white;
+    transition: 0.3s;
+}
+
+.answer4:hover {
+    background-color: #555555;
+    color: white;
+    transition: 0.3s;
+}
+
+
+
+

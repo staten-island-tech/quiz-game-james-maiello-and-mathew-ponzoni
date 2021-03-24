@@ -1,7 +1,6 @@
 {
   "name": "quiz-game-james-maiello-and-mathew-ponzoni",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "parcel": "^2.0.0-beta.2"
@@ -20,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/staten-island-tech/quiz-game-james-maiello-and-mathew-ponzoni/issues"
   },
-  "homepage": "https://github.com/staten-island-tech/quiz-game-james-maiello-and-mathew-ponzoni#readme"
+  "homepage": "https://github.com/staten-island-tech/quiz-game-james-maiello-and-mathew-ponzoni#readme",
+  "description": ""
 }
