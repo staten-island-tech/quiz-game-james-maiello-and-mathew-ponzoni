@@ -12,11 +12,15 @@ body {
   font-size: 3rem;
 }
 
-.answers {
+.questionandanswers {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.startscreen {
+  background-color: #555555;
 }
 
 .answer1, .answer2, .answer3, .answer4 {
@@ -50,6 +54,22 @@ body {
 }
 
 .answer4:hover {
+  background-color: #555555;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.start-btn {
+  background-color: #ffffff;
+  font: #000000;
+  width: 50vw;
+  height: 35vh;
+  font-size: 2rem;
+  margin-bottom: 3vh;
+}
+
+.start-btn:hover {
   background-color: #555555;
   color: white;
   -webkit-transition: 0.3s;

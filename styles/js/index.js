@@ -1,3 +1,13 @@
+const startButton = document.getElementsByClassName('start-btn')
+
+startButton.addEventListener('click', startGame)
+
+function startGame() {
+    console.log('awdhawodoi')
+}
+
+
+
 const questions = [
 {
     question: 'Which state has the highest population?',
@@ -45,9 +55,9 @@ const questions = [
     question: 'Which was the last state to become a state of the US?',
     answers: [
         { text: 'Oklahoma', correct: false },
-        { text: 'Alaska', correct: true },
+        { text: 'Alaska', correct: false },
         { text: 'Arizona', correct: false },
-        { text: 'Hawaii', correct: false },
+        { text: 'Hawaii', correct: true },
     ],
     question: 'In which state were the most presidents born in?',
     answers: [

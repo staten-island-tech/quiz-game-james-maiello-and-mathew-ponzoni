@@ -12,8 +12,12 @@ body{
     font-size: 3rem;
 }
 
-.answers {
+.questionandanswers {
     flex-direction: column;
+}
+
+.startscreen {
+    background-color: #555555;
 }
 
 .answer1,.answer2,.answer3,.answer4 {
@@ -46,6 +50,18 @@ body{
     transition: 0.3s;
 }
 
+.start-btn {
+    background-color: #ffffff;
+    font: #000000;
+    width: 50vw;
+    height: 35vh;
+    font-size: 2rem;
+    margin-bottom: 3vh;
+}
 
-
+.start-btn:hover {
+    background-color: #555555;
+    color: white;
+    transition: 0.3s;
+}
 
