@@ -1,3 +1,13 @@
+const questionElement = document.getElementById('question')
+const answersElement = document.getElementById('answers')
+
+const startButton = document.getElementsByClassName('start-btn')
+
+startButton.addEventListener('click', startGame)
+
+function startGame() {
+    console.log('awdhawodoi')
+}
 const questions = [
 {
     question: 'Which state has the highest population?',
@@ -73,3 +83,9 @@ const questions = [
 }
 
 ]
+
+
+
+function showQuestion(question)  {
+    questionElement.innerText = questions.question
+}

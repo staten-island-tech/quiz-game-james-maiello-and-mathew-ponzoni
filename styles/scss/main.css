@@ -4,22 +4,22 @@ body {
   text-align: center;
 }
 
-.title {
+#title {
   font-size: 5rem;
 }
 
-.question {
+#question {
   font-size: 3rem;
 }
 
-.answers {
+#answers {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-.answer1, .answer2, .answer3, .answer4 {
+#answer1, #answer2, #answer3, #answer4 {
   background-color: #ffffff;
   font: #000000;
   width: 50vw;
@@ -28,31 +28,47 @@ body {
   margin-bottom: 3vh;
 }
 
-.answer1:hover {
+#answer1:hover {
   background-color: #555555;
   color: white;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.answer2:hover {
+#answer2:hover {
   background-color: #555555;
   color: white;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.answer3:hover {
+#answer3:hover {
   background-color: #555555;
   color: white;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.answer4:hover {
+#answer4:hover {
   background-color: #555555;
   color: white;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+
+#start-btn {
+  background-color: #ffffff;
+  font: #000000;
+  width: 50vw;
+  height: 35vh;
+  font-size: 2rem;
+  margin-bottom: 3vh;
+}
+
+#start-btn:hover {
+  background-color: #555555;
+  color: white;
+  transition: 0.3s;
+}
+
 /*# sourceMappingURL=main.css.map */
