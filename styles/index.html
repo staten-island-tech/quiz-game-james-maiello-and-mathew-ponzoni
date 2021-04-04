@@ -3,37 +3,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="scss/main.css">
+    <title>Quiz Game: Mathew Ponzoni and James Maiello</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="js/index.js"></script>
-    <h1 id="title">Guess the State Quiz</h1>
-    <div id="question-container">
-    <div id="question">
-        efpiwejfoiqwjdoiqdwjoiqdwj
-    </div>
-    </div>
-    <div id="answers">
-        <button id="answer1">
-            wdwadawd
-        </button>
-        <button id="answer2">
-            asdwdawd
-        </button>
-        <button id="answer3">
-            wdadwawdawd
-        </button>
-        <button id="answer4">
-            wdawdadawdawd
-        </button>
-    </div>
-    <div id="startscreen">
-        <button id="start-btn">
-            Start
-        </button>
-    </div>
+    <div class="grid">
+        <div id="quiz">
+            
+            <h1>Guess the State</h1>
+            
+            <p id="question"></p>
 
+            <div class="buttons">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+            </div>
+
+           
+            <footer>
+                <p id="progress">Question x of y</p>
+            </footer>
+        </div>
+    </div>
 </body>
-
 </html>
