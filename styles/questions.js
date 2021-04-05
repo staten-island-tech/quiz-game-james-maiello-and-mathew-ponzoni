@@ -6,5 +6,5 @@ function Question(text, answers, correct) {
 
 Question.prototype.correctAnswer = function(choice) {
     return chocie === this.answers;
-    
+
 }
