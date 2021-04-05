@@ -1,14 +1,5 @@
-const questionElement = document.getElementById('question')
-const answersElement = document.getElementById('answers')
 
-const startButton = document.getElementsByClassName('start-btn')
-
-startButton.addEventListener('click', startGame)
-
-function startGame() {
-    console.log('awdhawodoi')
-}
-const questions = [
+//const  = [
 {
     question: 'Which state has the highest population?',
     answers: [
@@ -86,6 +77,25 @@ const questions = [
 
 
 
-function showQuestion(question)  {
-    questionElement.innerText = questions.question
+var questions = {
+    new:Question("Which state has the highest population?", ["New York", "Texas", "California", "Florida"], "California"),
+    new:Question("Which state has the largest Land Mass?", ["Alaska", "California", "New York", "Montana"], "Alaska"),
+    new:Question("Whcih state has the lowest population?", ["Alaska", "Maine", "Wyoming", "South Dakota"], "Wyoming"),
+    new:Question()
 }
+
+var quiz = new Quiz(questions);
+
+populate();
+
+function populate() {
+    if(quiz.isEnded()){
+
+    }
+    else{
+        var element = document.getElementById("question");
+        element.innerHTML = quiz.getQuestionIndex().text;
+    }
+}
+
+console.log(fsdf)

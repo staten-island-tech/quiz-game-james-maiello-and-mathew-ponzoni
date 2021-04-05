@@ -33,8 +33,8 @@ body{
   font-size: 4.5rem;
 }
 .grid #question{
-  font-size: 30 px;
-  color: #2c2c2c;
+  font-size: 30px;
+  color: #000000;
 }
 
 #progress{
@@ -48,6 +48,7 @@ body{
   background-color: #000000;
 }
 
-#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus{
-
+#question{
+  font-size: 3rem;
 }
+
