@@ -1,6 +1,6 @@
 body{
     background-color: #807e7e;
-    
+   
 }
 
 h1{
@@ -17,6 +17,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .container > *{
@@ -84,4 +85,16 @@ h2{
     padding: 1.5rem;
     width: 100%;
   }
+
+.correct{
+  background-color: #117019;
+}
   
+.incorrect{
+  background-color: red;
+}
+
+#hud{
+  display: flex;
+  justify-content: space-around;
+}
