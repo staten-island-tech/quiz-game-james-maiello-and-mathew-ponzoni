@@ -12,20 +12,28 @@ let availableQuesions = [];
 
 let questions = [
     {
-        question: 'Which State has the highest population?',
-        choice1: 'New York',
-        choice2: 'California',
-        choice3: 'Texas',
-        choice4: 'Florida',
+        question: "Which State has the highest population?",
+        choice1: "New York",
+        choice2: "California",
+        choice3: "Texas",
+        choice4: "Florida",
         answer: 2,
     },
     {
-        question:"Which state has the highest population density?",
-        choice1: "New York",
+        question: "Which state is the largest in area?",
+        choice1: "Alaska",
         choice2: "California",
-        choice3: "Ohio",
-        choice4: "New Jersey",
-        answer: 4,
+        choice3: "Texas",
+        choice4: "Montana",
+        answer: 1,
+    },
+    {
+        question: "Which state has the least population?",
+        choice1: "Alaska",
+        choice2: "Maine",
+        choice3: "Wyoming",
+        choice4: "South Dakota",
+        answer: 3,
     },
     {
         question: "Which state is the smallest in area?",
@@ -35,10 +43,59 @@ let questions = [
         choice4: "Connecticut",
         answer: 2,
     },
+    {
+        question: "Which state has the tallest building?",
+        choice1: "New York",
+        choice2: "Illinois",
+        choice3: "Florida",
+        choice4: "California",
+        answer: 1,
+    },
+    {
+        question: "Which was the first official state of the US?",
+        choice1: "Washington DC",
+        choice2: "New Jersey",
+        choice3: "Maryland",
+        choice4: "Delaware",
+        answer: 4,
+    },
+    {
+        question: "Which was the last state to become a state of the US?",
+        choice1: "Oklahoma",
+        choice2: "Alaska",
+        choice3: "Arizona",
+        choice4: "Hawaii",
+        answer: 4,
+    },
+    {
+        question: "In which state were the most presidents born in?",
+        choice1: "Ohio",
+        choice2: "Virginia",
+        choice3: "Massachusetts",
+        choice4: "Georgia",
+        answer: 2,
+    },
+    {
+        question: "Which state is Bismarck the capital of?",
+        choice1: "North Dakota",
+        choice2: "Nebraska",
+        choice3: "Louisiana",
+        choice4: "Kansas",
+        answer: 1,
+    },
+    {
+        question: "Which state has the highest population density?",
+        choice1: "New York",
+        choice2: "California",
+        choice3: "Ohio",
+        choice4: "New Jersey",
+        answer: 4,
+    },
+
 ];
 
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 10;
 
 startGame = () => {
     questionCounter = 0;
